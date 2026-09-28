@@ -1,4 +1,4 @@
-# AI-Powered Machine Learning Model for Automated FRQ Grading
+# BioGrade AI
 
 > A BERT + machine-translation powered **teacher-assist** system for evaluating Biology Free-Response Questions (FRQs) with rubric-grounded scoring, explainable feedback, and fairness auditing.
 
