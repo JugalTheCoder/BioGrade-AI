@@ -1,0 +1,4 @@
+response_id,question_id,response_text,human_score,language,split
+r001,evolution_001,"Individuals with a beneficial inherited trait reproduce more, causing the allele to increase in frequency over generations.",3,en,test
+r002,evolution_001,"Animals try hard to adapt because they need to survive.",0,en,test
+r003,evolution_001,"Natural selection favors heritable variation that improves reproductive success, so associated alleles can become more frequent.",3,en,test

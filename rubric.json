@@ -1,0 +1,9 @@
+{
+  "question_id": "evolution_001",
+  "question": "Explain how natural selection can change allele frequencies in a population.",
+  "criteria": [
+    {"id": "c1", "description": "Identifies differential survival or reproduction", "points": 1},
+    {"id": "c2", "description": "States that the relevant trait is heritable", "points": 1},
+    {"id": "c3", "description": "Explains that advantageous alleles become more common over generations", "points": 1}
+  ]
+}
