@@ -1,0 +1,12 @@
+model:
+  encoder_name: bert-base-uncased
+  criterion_threshold: 0.72
+  relevance_threshold: 0.40
+  max_length: 512
+translation:
+  enabled: false
+  source_language: auto
+  target_language: en
+review:
+  always_require_teacher_review: true
+  low_confidence_threshold: 0.65
