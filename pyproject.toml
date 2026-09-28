@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bio-frq-ai"
+version = "0.1.0"
+description = "BERT + translation teacher-assist system for Biology FRQ evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "transformers>=4.45",
+  "torch>=2.2",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "pydantic>=2.8",
+  "scikit-learn>=1.5",
+  "pyyaml>=6.0",
+  "sentencepiece>=0.2",
+  "streamlit>=1.38"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
